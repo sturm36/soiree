@@ -14,6 +14,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.5', '>= 3.5.2'
 group :development, :test do
     gem 'sqlite3',     '1.3.9'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
 end
 group :production do
     gem 'pg'
